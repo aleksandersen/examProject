@@ -1,5 +1,6 @@
 import express from 'express' // Express is installed using npm
 import USER_API from './routes/usersRoute.mjs'; // This is where we have defined the API for working with users.
+import log from `./modules/SuperLog.mjs`;
 
 // Creating an instance of the server
 const server = express();
@@ -15,6 +16,8 @@ server.use("/user", USER_API);
 
 // A get request handler example)
 server.get("/", (req, res, next) => {
+
+        req.originalUrl();
 
     res.status(200).send(JSON.stringify({ msg: "These are not the droids...." })).end();
 });

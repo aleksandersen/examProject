@@ -1,16 +1,23 @@
 import express from "express";
 import User from "../modules/user.mjs";
-import HttpCodes from "../modules/httpErrorCodes.mjs";
+import HttpCodes from "../modules/httpConstants.mjs";
 
 const USER_API = express.Router();
 
 const users = [];
 
-USER_API.get("/:id", (req, res) => {
+const helloWorldMiddleWare = function(req, res, next){
+  console.log("Hello WOrld");                                       //Her går den videre og vi kan ha nye brackets og kjøre ny kode.
+  next();
+}
+
+//user.USER_API.use(hello); Nå vil alle skrive hello.
+
+USER_API.get("/:id", (req, res, next) => {
   // Return user object
 });
 
-USER_API.post("/", (req, res) => {
+USER_API.post("/", (req, res, next) => {
   // create user
 
   const [name, email, password] =  [req.body.name, req.body.email, req.body.password]

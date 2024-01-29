@@ -1,4 +1,4 @@
-class HttpCodes {
+class HTTPCodes {
 
 static SuccesfullResponse = {
     Ok: 200
@@ -15,4 +15,18 @@ static SuccesfullResponse = {
   };
 }
 
-export default HttpCodes;
+const HTTPMethods = {
+
+  POST: "POST",
+  GET: "GET",
+  PUT: "PUT",
+  PATCH:"PATCH",
+  DELETE:"DELETE"
+}
+  
+
+
+export { HTTPCodes, HTTPMethods}
+
+
+
