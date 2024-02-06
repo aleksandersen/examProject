@@ -1,16 +1,33 @@
 import express, { response } from "express";
 import User from "../modules/user.mjs";
-import { HTTPCodes, HTTPMethods } from "../modules/httpConstants.mjs";
+import { HTTPCodes } from "../modules/httpConstants.mjs";
+import SuperLogger from "../modules/SuperLogger.mjs";
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+
 
 
 const USER_API = express.Router();
-USER_API.use(express.json); // This makes it so that express parses all incoming payloads as JSON for this route.
+USER_API.use(express.json()); // This makes it so that express parses all incoming payloads as JSON for this route.
 
 const users = [];
 
+USER_API.get('/', (req, res, next) => {
+    SuperLogger.log("Demo of logging tool");
+    SuperLogger.log("A important msg", SuperLogger.LOGGING_LEVELS.CRTICAL);
+    const s = join(__dirname, '../public/login.html');
+    res.sendFile(s);
+})
+
+USER_API.post('/login', (req, res, next) => {
+    res.status(200).send(JSON.stringify({ msg: "User login OK!!!" })).end();
+})
 
 USER_API.get('/:id', (req, res, next) => {
-
 
     // Tip: All the information you need to get the id part of the request can be found in the documentation 
     // https://expressjs.com/en/guide/routing.html (Route parameters)
@@ -18,7 +35,6 @@ USER_API.get('/:id', (req, res, next) => {
     /// TODO: 
     // Return user object
 })
-
 
 USER_API.post('/', (req, res, next) => {
 
@@ -28,7 +44,7 @@ USER_API.post('/', (req, res, next) => {
     const { name, email, password } = req.body;
 
     if (name != "" && email != "" && password != "") {
-        const user = new User();
+        const user = new user();
         user.name = name;
         user.email = email;
 
