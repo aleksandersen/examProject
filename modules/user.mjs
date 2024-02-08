@@ -16,8 +16,8 @@ export class User {
 }
 
 export function ReqUserLogin(aResponce){
-    const s = join(__dirname, '../public/login.html');
-    aResponce.sendFile(s);
+    const joinName = join(__dirname, '../public/login.html');
+    aResponce.sendFile(joinName);
 }
 
 export default {User};

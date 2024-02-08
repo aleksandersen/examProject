@@ -9,8 +9,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 
-
-
 const USER_API = express.Router();
 USER_API.use(express.json()); // This makes it so that express parses all incoming payloads as JSON for this route.
 
@@ -19,13 +17,14 @@ const users = [];
 USER_API.get('/', (req, res, next) => {
     SuperLogger.log("Demo of logging tool");
     SuperLogger.log("A important msg", SuperLogger.LOGGING_LEVELS.CRTICAL);
-    const s = join(__dirname, '../public/login.html');
-    res.sendFile(s);
+    const joinName = join(__dirname, '../public/login.html');
+    res.sendFile(joinName);
 })
 
-USER_API.post('/login', (req, res, next) => {
-    res.status(200).send(JSON.stringify({ msg: "User login OK!!!" })).end();
-})
+USER_API.post('/login',  (req, res, next) => {
+    //TODO: Login user
+});
+
 
 USER_API.get('/:id', (req, res, next) => {
 
@@ -34,7 +33,7 @@ USER_API.get('/:id', (req, res, next) => {
 
     /// TODO: 
     // Return user object
-})
+});
 
 USER_API.post('/', (req, res, next) => {
 
