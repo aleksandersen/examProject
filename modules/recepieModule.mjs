@@ -11,9 +11,16 @@ static showAll(req, res){
     res.status(HTTPCodes.SuccesfullRespons.Ok).send(JSON.stringify({ msg: "Here are the recepies" })).end();
 
 }
+
+static testRoute(req, res){
+
+    res.status(HTTPCodes.SuccesfullRespons.Ok).send(JSON.stringify({ msg: "Here is a new route" })).end();
+
+}
+
     constructor(){
 
-//Todo: Add elements in recepies.
+//Todo: Add different elements in recepies.
 
     }       
 }
