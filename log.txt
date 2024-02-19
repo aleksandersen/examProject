@@ -198,3 +198,7 @@ A important msg
 Demo of logging tool
 A important msg
 15:18:10 [32mGET[39m /recepie
+23:01:16 [32mGET[39m /
+23:01:17 [32mGET[39m /favicon.ico
+23:01:19 [33mPOST[39m /user
+23:01:26 [33mPOST[39m /user
