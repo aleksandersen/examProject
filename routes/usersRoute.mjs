@@ -21,10 +21,6 @@ USER_API.get('/', (req, res, next) => {
     res.sendFile(joinName);
 })
 
-USER_API.post('/login',  (req, res, next) => {
-    //TODO: Login user
-});
-
 
 USER_API.get('/:id', (req, res, next) => {
 
@@ -35,15 +31,21 @@ USER_API.get('/:id', (req, res, next) => {
     // Return user object
 });
 
-USER_API.post('/', (req, res, next) => {
+
+USER_API.post('/login',  (req, res, next) => {
+    //TODO: Login user
+});
+
+USER_API.post('/', async (req, res, next) => {
 
     // This is using javascript object destructuring.
     // Recomend reading up https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#syntax
     // https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter/
     const { name, email, password } = req.body;
 
+
     if (name != "" && email != "" && password != "") {
-        const user = new user();
+        let user = new User();
         user.name = name;
         user.email = email;
 
@@ -54,8 +56,9 @@ USER_API.post('/', (req, res, next) => {
         let exists = false;
 
         if (!exists) {
-            users.push(user);
-            res.status(HTTPCodes.SuccesfullRespons.Ok).end();
+            //TODO: What happens if this fails?
+            user = await user.save();
+            res.status(HTTPCodes.SuccesfullRespons.Ok).json(JSON.stringify(user)).end();
         } else {
             res.status(HTTPCodes.ClientSideErrorRespons.BadRequest).end();
         }
@@ -66,12 +69,16 @@ USER_API.post('/', (req, res, next) => {
 
 });
 
-USER_API.put('/:id', (req, res) => {
+USER_API.post('/:id', (req, res, next) => {
     /// TODO: Edit user
-})
+    const user = new User(); //TODO: The user info comes as part of the request 
+    user.save();
+});
 
 USER_API.delete('/:id', (req, res) => {
     /// TODO: Delete user.
-})
+    const user = new User(); //TODO: Actual user
+    user.delete();
+});
 
 export default USER_API

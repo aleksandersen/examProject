@@ -3,6 +3,12 @@ import USER_API from "./routes/usersRoute.mjs"; // This is where we have defined
 import SuperLogger from "./modules/SuperLogger.mjs";
 import { User, ReqUserLogin } from "./modules/user.mjs";
 import recepie_API from "./routes/recepieRoutes.mjs";
+import printDeveloperStartupInportantInformationMSG from "./modules/developerHelpers.mjs";
+import 'dotenv/config'
+
+
+printDeveloperStartupInportantInformationMSG();
+
 
 // Creating an instance of the server
 const server = express();
@@ -26,16 +32,7 @@ server.use("/recepie", recepie_API);
 
 // A get request handler example)
 server.get("/", (req, res, next) => {
-  let userOk = true;
-  req.originalUrl;
-  if (!userOk) {
-    ReqUserLogin(res);
-  } else {
-    res
-      .status(200)
-      .send(JSON.stringify({ msg: "These are not the droids...." }))
-      .end();
-  }
+  res.status(200).send(JSON.stringify({ msg: "These are not the droids...." })).end();
 });
 
 // Start the server
