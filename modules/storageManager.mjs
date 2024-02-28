@@ -94,9 +94,9 @@ class DBManager {
 
 
 
-connectionString = process.env.DB_CONNECTIONSTRING_LOCAL;
+let connectionString = process.env.DB_CONNECTIONSTRING_LOCAL;
 if (process.env.ENVIORMENT != "local") {
-    connectionString = process.env.DB_CONNECTIONSTRING_PROD;
+   let connectionString = process.env.DB_CONNECTIONSTRING_PROD;
 }
 
 
@@ -104,7 +104,7 @@ if (process.env.ENVIORMENT != "local") {
 
 // We are using an enviorment variable to get the db credentials 
 if (connectionString == undefined) {
-    throw ("You forgot the db connection string");
+    throw new Error ("You forgot the db connection string");
 }
 
 export default new DBManager(connectionString);
