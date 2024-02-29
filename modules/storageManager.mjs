@@ -2,6 +2,7 @@ import pg from "pg"
 
 
 
+
 /// TODO: is the structure / design of the DBManager as good as it could be?
 
 class DBManager {
@@ -93,7 +94,7 @@ class DBManager {
 
 let connectionString = process.env.DB_CONNECTIONSTRING_LOCAL;
 if (process.env.ENVIORMENT != "local") {
-   let connectionString = process.env.DB_CONNECTIONSTRING_PROD;
+   connectionString = process.env.DB_CONNECTIONSTRING_PROD;
 }
 
 
