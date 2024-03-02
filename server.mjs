@@ -6,10 +6,7 @@ import { User, ReqUserLogin } from "./modules/user.mjs";
 import recepie_API from "./routes/recepieRoutes.mjs";
 import printDeveloperStartupInportantInformationMSG from "./modules/developerHelpers.mjs";
 
-
-
 printDeveloperStartupInportantInformationMSG();
-
 
 // Creating an instance of the server
 const server = express();
@@ -18,7 +15,7 @@ const port = process.env.PORT || 8080;
 server.set("port", port);
 
 // Enable logging for server
-const logger = new SuperLogger();
+const logger = new SuperLogger();0
 server.use(logger.createAutoHTTPRequestLogger()); // Will logg all http method requests
 
 

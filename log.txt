@@ -214,3 +214,22 @@ Demo of logging tool
 A important msg
 13:21:22 [32mGET[39m /login
 13:22:21 [32mGET[39m /recepie
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+14:24:23 [32mGET[39m /
+14:24:29 [32mGET[39m /recepie
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+15:32:03 [32mGET[39m /
+15:32:07 [33mPOST[39m /user
+15:32:38 [32mGET[39m /
+15:32:40 [32mGET[39m /
+15:32:40 [32mGET[39m /
+15:32:41 [32mGET[39m /
+15:32:41 [32mGET[39m /
+15:32:41 [32mGET[39m /
+15:32:41 [32mGET[39m /
