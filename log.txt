@@ -233,3 +233,43 @@ Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_d
 15:32:41 [32mGET[39m /
 15:32:41 [32mGET[39m /
 15:32:41 [32mGET[39m /
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+Server enviorment local
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+15:15:24 [32mGET[39m /
+15:15:24 [32mGET[39m /favicon.ico
+15:15:45 [32mGET[39m /
+15:15:45 [32mGET[39m /
+15:15:46 [32mGET[39m /
+15:15:46 [32mGET[39m /
+15:16:01 [32mGET[39m /
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+21:43:19 [32mGET[39m /

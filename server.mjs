@@ -1,5 +1,6 @@
 import 'dotenv/config'
 import express from "express"; // Express is installed using npm
+import pg from "pg"
 import USER_API from "./routes/usersRoute.mjs"; // This is where we have defined the API for working with users.
 import SuperLogger from "./modules/SuperLogger.mjs";
 import { User, ReqUserLogin } from "./modules/user.mjs";

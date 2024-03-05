@@ -4,11 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My app</title>
+    <title>My recipe app</title>
+
+    <script src="./script/fetch.js"></script>
+    <script src="./script/templateLoader.js"></script>
+    <script src="./script/main.js"></script>
+
 </head>
 
 
 <body>
+
+    <div id="divHeder"></div>
+
+    <div id="divContent"></div>
+
+    <div id="divFooter"></div>
+
 
     <div>
         Name : <input type="text" id="name"><br>
@@ -18,17 +30,16 @@
     </div>
 
 
-
-
-     
-
-
-    <h1> TEST </h1>
-
     <script>
 
+let mainMenu = getElementById("mainMenu");
+let homeBtn = getElementById("homeBtn")
+let addRecipeBtn = getElementById("addRecipeBtn")
+let myUserBtn = document.getElementById('myUserBtn');
 
-
+homeBtn.addEventListener('click', function(evt) {
+    
+});
 
         const createUserButton = document.getElementById("createUserButton");
 
@@ -40,7 +51,7 @@
 
             const user = { name, email, pswHash };
 
-            const respon = await postTo("/user", user);
+            const response = await postTo("/user", user);
 
         }
 
@@ -65,8 +76,7 @@
 
 <template>
 
-    
+
 </template>
 
 </html>
-
