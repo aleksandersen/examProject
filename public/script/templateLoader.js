@@ -1,26 +1,22 @@
-function loadTemplate(aTemplateID, aDestinationElement, aEmptyElement = false) {
-  const template = document.getElementById(aTemplateID);
-  if (template.content) {
-    const clone = template.content.cloneNode();
+
+function loadTemplate(aTemplateID, aDestElement, aEmptyElement = false){
+  
+  const tl = document.getElementById(aTemplateID);
+  if(tl.content){
+    const clone = tl.content.cloneNode(true);
     if(aEmptyElement){
-        emptyContainerElement(aDestinationElement)
+      emptyContainerElement(aDestElement);
     }
-    aDestinationElement.appendChild(clone)
-  } else {
-    console.log("Your browser doesn't support templates");
+    aDestElement.appendChild(clone);
+  }else{
+    console("Your browser does not support templates!");
   }
 }
 
-
 function emptyContainerElement(aElement){
-    let child = aElement.firstChild;
-while(child){ //denne blir satt til true hvis det er barn igjen
-    aElement.removeChild(child)
-    let child = aElement.firstChild()
-
+  let child = aElement.firstChild;
+  while(child){
+    aElement.removeChild(child);
+    child = aElement.firstChild();
+  }
 }
-}
-
-//
-
-

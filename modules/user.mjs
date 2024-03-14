@@ -1,17 +1,11 @@
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
 import DBManager from "./storageManager.mjs";
-
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 export class User {
 
     constructor() {
         ///TODO: Are these the correct fields for your project?
         this.email;
-        this.pswHash;
+        this.password;
         this.name;
         this.id;
     }
@@ -36,10 +30,6 @@ export class User {
 
 }
 
-export function ReqUserLogin(aResponce){
-    const joinName = join(__dirname, '../public/login.html');
-    aResponce.sendFile(joinName);
-}
 
 export default {User};
 

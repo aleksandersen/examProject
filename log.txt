@@ -273,3 +273,950 @@ Server enviorment local
 Database connection  postgres://postgres:1234@localhost:5432/recipe_db
 ####################
 21:43:19 [32mGET[39m /
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+00:26:27 GET /
+00:26:27 GET /script/fetch.js
+00:26:27 GET /script/templateLoader.js
+00:26:27 GET /script/main.js
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+Server enviorment local
+####################
+00:29:24 [32mGET[39m /
+00:29:24 [32mGET[39m /script/fetch.js
+00:29:24 [32mGET[39m /script/templateLoader.js
+00:29:24 [32mGET[39m /script/main.js
+10:26:38 [32mGET[39m /
+10:26:38 [32mGET[39m /script/fetch.js
+10:26:38 [32mGET[39m /script/templateLoader.js
+10:26:38 [32mGET[39m /script/main.js
+10:26:38 [32mGET[39m /favicon.ico
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+11:05:36 [32mGET[39m /
+11:05:36 [32mGET[39m /script/fetch.js
+11:05:36 [32mGET[39m /script/templateLoader.js
+11:05:36 [32mGET[39m /script/main.js
+11:10:26 [32mGET[39m /
+11:10:26 [32mGET[39m /script/fetch.js
+11:10:26 [32mGET[39m /script/templateLoader.js
+11:10:26 [32mGET[39m /script/main.js
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+14:34:23 [32mGET[39m /
+14:34:23 [32mGET[39m /script/fetch.js
+14:34:23 [32mGET[39m /script/templateLoader.js
+14:34:23 [32mGET[39m /script/main.js
+14:34:23 [32mGET[39m /favicon.ico
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+14:45:27 [32mGET[39m /
+14:45:27 [32mGET[39m /script/fetch.js
+14:45:27 [32mGET[39m /script/templateLoader.js
+14:45:27 [32mGET[39m /script/main.js
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+14:49:01 GET /
+14:49:01 GET /script/fetch.js
+14:49:01 GET /script/templateLoader.js
+14:49:01 GET /script/main.js
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+14:53:21 GET /
+14:53:22 GET /script/fetch.js
+14:53:22 GET /script/templateLoader.js
+14:53:22 GET /script/main.js
+14:53:56 GET /
+14:53:56 GET /script/fetch.js
+14:53:56 GET /script/templateLoader.js
+14:53:56 GET /script/main.js
+14:53:58 GET /
+14:53:58 GET /script/fetch.js
+14:53:58 GET /script/templateLoader.js
+14:53:58 GET /script/main.js
+20:38:13 GET /
+20:38:13 GET /script/templateLoader.js
+20:38:13 GET /script/fetch.js
+20:38:13 GET /script/main.js
+20:38:13 GET /favicon.ico
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+20:38:35 [32mGET[39m /
+20:38:35 [32mGET[39m /script/fetch.js
+20:38:35 [32mGET[39m /script/templateLoader.js
+20:38:35 [32mGET[39m /script/main.js
+20:38:48 [32mGET[39m /login
+20:38:56 [32mGET[39m /recepie
+20:39:08 [32mGET[39m /
+20:39:08 [32mGET[39m /script/fetch.js
+20:39:08 [32mGET[39m /script/templateLoader.js
+20:39:08 [32mGET[39m /script/main.js
+20:40:19 [32mGET[39m /
+20:40:19 [32mGET[39m /script/fetch.js
+20:40:19 [32mGET[39m /script/templateLoader.js
+20:40:19 [32mGET[39m /script/main.js
+20:40:54 [32mGET[39m /
+20:40:54 [32mGET[39m /script/fetch.js
+20:40:54 [32mGET[39m /script/templateLoader.js
+20:40:54 [32mGET[39m /script/main.js
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+20:41:19 [32mGET[39m /
+20:41:19 [32mGET[39m /script/fetch.js
+20:41:19 [32mGET[39m /script/templateLoader.js
+20:41:19 [32mGET[39m /script/main.js
+20:41:20 [32mGET[39m /
+20:41:20 [32mGET[39m /script/fetch.js
+20:41:20 [32mGET[39m /script/templateLoader.js
+20:41:20 [32mGET[39m /script/main.js
+20:41:21 [32mGET[39m /
+20:41:21 [32mGET[39m /script/fetch.js
+20:41:21 [32mGET[39m /script/templateLoader.js
+20:41:21 [32mGET[39m /script/main.js
+20:41:56 [32mGET[39m /
+20:41:56 [32mGET[39m /script/fetch.js
+20:41:56 [32mGET[39m /script/templateLoader.js
+20:41:56 [32mGET[39m /script/main.js
+20:41:58 [32mGET[39m /
+20:41:58 [32mGET[39m /script/fetch.js
+20:41:58 [32mGET[39m /script/templateLoader.js
+20:41:58 [32mGET[39m /script/main.js
+20:42:35 [32mGET[39m /
+20:42:35 [32mGET[39m /script/fetch.js
+20:42:35 [32mGET[39m /script/templateLoader.js
+20:42:35 [32mGET[39m /script/main.js
+20:42:48 [32mGET[39m /
+20:42:48 [32mGET[39m /script/fetch.js
+20:42:48 [32mGET[39m /script/templateLoader.js
+20:42:48 [32mGET[39m /script/main.js
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+20:44:13 GET /
+20:44:13 GET /script/fetch.js
+20:44:13 GET /script/main.js
+20:44:13 GET /script/templateLoader.js
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+20:44:19 GET /
+20:44:19 GET /script/fetch.js
+20:44:19 GET /script/templateLoader.js
+20:44:19 GET /script/main.js
+20:44:23 POST /user
+20:44:36 POST /user
+####################
+Server enviorment local
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+20:58:05 [32mGET[39m /
+20:58:05 [32mGET[39m /script/fetch.js
+20:58:05 [32mGET[39m /script/main.js
+20:58:05 [32mGET[39m /script/templateLoader.js
+20:58:07 [32mGET[39m /
+20:58:07 [32mGET[39m /script/fetch.js
+20:58:07 [32mGET[39m /script/templateLoader.js
+20:58:07 [32mGET[39m /script/main.js
+21:11:06 [33mPOST[39m /user
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+21:13:13 [32mGET[39m /
+21:13:13 [32mGET[39m /script/fetch.js
+21:13:13 [32mGET[39m /script/templateLoader.js
+21:13:13 [32mGET[39m /script/main.js
+21:13:13 [32mGET[39m /favicon.ico
+21:16:04 [32mGET[39m /
+21:16:04 [32mGET[39m /script/fetch.js
+21:16:04 [32mGET[39m /script/templateLoader.js
+21:16:04 [32mGET[39m /script/main.js
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+13:55:05 [32mGET[39m /
+13:55:05 [32mGET[39m /script/fetch.js
+13:55:05 [32mGET[39m /script/templateLoader.js
+13:55:05 [32mGET[39m /script/main.js
+13:55:05 [32mGET[39m /favicon.ico
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+13:56:34 [32mGET[39m /
+13:56:34 [32mGET[39m /script/fetch.js
+13:56:34 [32mGET[39m /script/templateLoader.js
+13:56:34 [32mGET[39m /script/main.js
+13:56:34 [32mGET[39m /favicon.ico
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+18:06:06 GET /
+18:06:06 GET /script/templateLoader.js
+18:06:06 GET /script/fetch.js
+18:06:06 GET /script/main.js
+####################
+Server enviorment prod
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+23:43:37 [32mGET[39m /
+23:43:37 [32mGET[39m /script/fetch.js
+23:43:37 [32mGET[39m /script/templateLoader.js
+23:43:37 [32mGET[39m /script/main.js
+23:43:38 [32mGET[39m /
+23:43:38 [32mGET[39m /script/fetch.js
+23:43:38 [32mGET[39m /script/templateLoader.js
+23:43:38 [32mGET[39m /script/main.js
+23:43:38 [32mGET[39m /
+23:43:38 [32mGET[39m /script/fetch.js
+23:43:38 [32mGET[39m /script/templateLoader.js
+23:43:38 [32mGET[39m /script/main.js
+23:43:38 [32mGET[39m /
+23:43:38 [32mGET[39m /script/fetch.js
+23:43:38 [32mGET[39m /script/templateLoader.js
+23:43:38 [32mGET[39m /script/main.js
+23:43:39 [32mGET[39m /
+23:43:39 [32mGET[39m /script/fetch.js
+23:43:39 [32mGET[39m /script/templateLoader.js
+23:43:39 [32mGET[39m /script/main.js
+23:43:39 [32mGET[39m /
+23:43:39 [32mGET[39m /script/fetch.js
+23:43:39 [32mGET[39m /script/templateLoader.js
+23:43:39 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+23:57:18 [32mGET[39m /
+23:57:18 [32mGET[39m /script/fetch.js
+23:57:18 [32mGET[39m /script/templateLoader.js
+23:57:18 [32mGET[39m /script/main.js
+23:57:19 [32mGET[39m /
+23:57:19 [32mGET[39m /script/fetch.js
+23:57:19 [32mGET[39m /script/templateLoader.js
+23:57:19 [32mGET[39m /script/main.js
+23:57:19 [32mGET[39m /
+23:57:19 [32mGET[39m /script/fetch.js
+23:57:19 [32mGET[39m /script/templateLoader.js
+23:57:19 [32mGET[39m /script/main.js
+23:57:19 [32mGET[39m /
+23:57:19 [32mGET[39m /script/fetch.js
+23:57:19 [32mGET[39m /script/templateLoader.js
+23:57:19 [32mGET[39m /script/main.js
+23:57:19 [32mGET[39m /
+23:57:19 [32mGET[39m /script/fetch.js
+23:57:19 [32mGET[39m /script/templateLoader.js
+23:57:19 [32mGET[39m /script/main.js
+00:03:12 [33mPOST[39m /user
+00:04:42 [32mGET[39m /
+00:04:42 [32mGET[39m /script/fetch.js
+00:04:42 [32mGET[39m /script/templateLoader.js
+00:04:42 [32mGET[39m /script/main.js
+00:04:43 [32mGET[39m /
+00:04:43 [32mGET[39m /script/fetch.js
+00:04:43 [32mGET[39m /script/templateLoader.js
+00:04:43 [32mGET[39m /script/main.js
+00:04:43 [32mGET[39m /
+00:04:43 [32mGET[39m /script/fetch.js
+00:04:43 [32mGET[39m /script/templateLoader.js
+00:04:43 [32mGET[39m /script/main.js
+00:04:43 [32mGET[39m /
+00:04:43 [32mGET[39m /script/fetch.js
+00:04:43 [32mGET[39m /script/templateLoader.js
+00:04:43 [32mGET[39m /script/main.js
+00:04:43 [32mGET[39m /
+00:04:43 [32mGET[39m /script/fetch.js
+00:04:43 [32mGET[39m /script/templateLoader.js
+00:04:43 [32mGET[39m /script/main.js
+00:04:43 [32mGET[39m /
+00:04:43 [32mGET[39m /script/fetch.js
+00:04:43 [32mGET[39m /script/templateLoader.js
+00:04:43 [32mGET[39m /script/main.js
+00:04:44 [32mGET[39m /
+00:04:44 [32mGET[39m /script/fetch.js
+00:04:44 [32mGET[39m /script/templateLoader.js
+00:04:44 [32mGET[39m /script/main.js
+00:04:44 [32mGET[39m /
+00:04:44 [32mGET[39m /script/fetch.js
+00:04:44 [32mGET[39m /script/templateLoader.js
+00:04:44 [32mGET[39m /script/main.js
+00:04:44 [33mPOST[39m /user
+00:04:53 [33mPOST[39m /user
+00:04:54 [33mPOST[39m /user
+00:04:54 [33mPOST[39m /user
+00:04:54 [33mPOST[39m /user
+00:04:55 [33mPOST[39m /user
+00:04:55 [33mPOST[39m /user
+00:04:55 [33mPOST[39m /user
+00:04:55 [33mPOST[39m /user
+00:04:55 [33mPOST[39m /user
+00:04:56 [33mPOST[39m /user
+00:04:56 [33mPOST[39m /user
+00:04:56 [33mPOST[39m /user
+00:04:56 [33mPOST[39m /user
+00:04:56 [33mPOST[39m /user
+00:06:40 [32mGET[39m /login
+####################
+Server enviorment prod
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+00:09:08 [32mGET[39m /
+00:09:08 [32mGET[39m /script/fetch.js
+00:09:08 [32mGET[39m /script/templateLoader.js
+00:09:08 [32mGET[39m /script/main.js
+00:09:22 [32mGET[39m /
+00:09:22 [32mGET[39m /script/fetch.js
+00:09:22 [32mGET[39m /script/templateLoader.js
+00:09:22 [32mGET[39m /script/main.js
+00:09:22 [32mGET[39m /
+00:09:22 [32mGET[39m /script/fetch.js
+00:09:22 [32mGET[39m /script/templateLoader.js
+00:09:22 [32mGET[39m /script/main.js
+00:09:27 [33mPOST[39m /user
+00:11:17 [32mGET[39m /recepie
+00:12:02 [32mGET[39m /user
+Demo of logging tool
+A important msg
+00:12:18 [32mGET[39m /login
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+Server enviorment prod
+####################
+14:38:53 [32mGET[39m /
+14:38:53 [32mGET[39m /script/fetch.js
+14:38:53 [32mGET[39m /script/templateLoader.js
+14:38:53 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+17:42:08 [32mGET[39m /
+17:42:08 [32mGET[39m /script/fetch.js
+17:42:08 [32mGET[39m /script/templateLoader.js
+17:42:08 [32mGET[39m /script/main.js
+17:42:56 [32mGET[39m /
+17:42:56 [32mGET[39m /script/fetch.js
+17:42:56 [32mGET[39m /script/templateLoader.js
+17:42:56 [32mGET[39m /script/main.js
+17:42:57 [32mGET[39m /
+17:42:57 [32mGET[39m /script/fetch.js
+17:42:57 [32mGET[39m /script/templateLoader.js
+17:42:57 [32mGET[39m /script/main.js
+17:42:57 [32mGET[39m /
+17:42:57 [32mGET[39m /script/fetch.js
+17:42:57 [32mGET[39m /script/templateLoader.js
+17:42:57 [32mGET[39m /script/main.js
+17:42:57 [32mGET[39m /
+17:42:57 [32mGET[39m /script/fetch.js
+17:42:57 [32mGET[39m /script/templateLoader.js
+17:42:57 [32mGET[39m /script/main.js
+17:42:57 [32mGET[39m /
+17:42:57 [32mGET[39m /script/fetch.js
+17:42:57 [32mGET[39m /script/templateLoader.js
+17:42:57 [32mGET[39m /script/main.js
+17:42:57 [32mGET[39m /
+17:42:57 [32mGET[39m /script/fetch.js
+17:42:57 [32mGET[39m /script/templateLoader.js
+17:42:57 [32mGET[39m /script/main.js
+17:42:58 [32mGET[39m /
+17:42:58 [32mGET[39m /script/fetch.js
+17:42:58 [32mGET[39m /script/templateLoader.js
+17:42:58 [32mGET[39m /script/main.js
+17:42:58 [32mGET[39m /
+17:42:58 [32mGET[39m /script/fetch.js
+17:42:58 [32mGET[39m /script/templateLoader.js
+17:42:58 [32mGET[39m /script/main.js
+17:42:58 [32mGET[39m /
+17:42:58 [32mGET[39m /script/fetch.js
+17:42:58 [32mGET[39m /script/templateLoader.js
+17:42:58 [32mGET[39m /script/main.js
+17:43:37 [32mGET[39m /
+17:43:37 [32mGET[39m /script/fetch.js
+17:43:37 [32mGET[39m /script/templateLoader.js
+17:43:37 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+17:44:15 [32mGET[39m /
+17:44:15 [32mGET[39m /script/fetch.js
+17:44:15 [32mGET[39m /script/templateLoader.js
+17:44:15 [32mGET[39m /script/main.js
+17:44:32 [32mGET[39m /
+17:44:32 [32mGET[39m /script/fetch.js
+17:44:32 [32mGET[39m /script/templateLoader.js
+17:44:32 [32mGET[39m /script/main.js
+17:59:11 [32mGET[39m /
+17:59:11 [32mGET[39m /script/fetch.js
+17:59:11 [32mGET[39m /script/templateLoader.js
+17:59:11 [32mGET[39m /script/main.js
+17:59:12 [32mGET[39m /
+17:59:12 [32mGET[39m /script/fetch.js
+17:59:12 [32mGET[39m /script/templateLoader.js
+17:59:12 [32mGET[39m /script/main.js
+17:59:13 [32mGET[39m /
+17:59:13 [32mGET[39m /script/fetch.js
+17:59:13 [32mGET[39m /script/templateLoader.js
+17:59:13 [32mGET[39m /script/main.js
+17:59:13 [32mGET[39m /
+17:59:13 [32mGET[39m /script/fetch.js
+17:59:13 [32mGET[39m /script/templateLoader.js
+17:59:13 [32mGET[39m /script/main.js
+17:59:14 [32mGET[39m /
+17:59:14 [32mGET[39m /script/fetch.js
+17:59:14 [32mGET[39m /script/templateLoader.js
+17:59:14 [32mGET[39m /script/main.js
+17:59:14 [32mGET[39m /
+17:59:14 [32mGET[39m /script/fetch.js
+17:59:14 [32mGET[39m /script/templateLoader.js
+17:59:14 [32mGET[39m /script/main.js
+18:07:58 [32mGET[39m /
+18:07:58 [32mGET[39m /script/fetch.js
+18:07:58 [32mGET[39m /script/templateLoader.js
+18:07:58 [32mGET[39m /script/main.js
+18:07:59 [32mGET[39m /
+18:07:59 [32mGET[39m /script/fetch.js
+18:07:59 [32mGET[39m /script/templateLoader.js
+18:07:59 [32mGET[39m /script/main.js
+18:07:59 [32mGET[39m /
+18:07:59 [32mGET[39m /script/fetch.js
+18:07:59 [32mGET[39m /script/templateLoader.js
+18:07:59 [32mGET[39m /script/main.js
+18:07:59 [32mGET[39m /
+18:07:59 [32mGET[39m /script/fetch.js
+18:07:59 [32mGET[39m /script/main.js
+18:07:59 [32mGET[39m /script/templateLoader.js
+18:07:59 [32mGET[39m /
+18:07:59 [32mGET[39m /script/fetch.js
+18:07:59 [32mGET[39m /script/templateLoader.js
+18:07:59 [32mGET[39m /script/main.js
+18:07:59 [32mGET[39m /
+18:07:59 [32mGET[39m /script/fetch.js
+18:07:59 [32mGET[39m /script/templateLoader.js
+18:07:59 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+18:08:20 [32mGET[39m /
+18:08:20 [32mGET[39m /script/fetch.js
+18:08:20 [32mGET[39m /script/templateLoader.js
+18:08:20 [32mGET[39m /script/main.js
+18:08:21 [32mGET[39m /
+18:08:21 [32mGET[39m /script/fetch.js
+18:08:21 [32mGET[39m /script/templateLoader.js
+18:08:21 [32mGET[39m /script/main.js
+18:10:02 [32mGET[39m /
+18:10:02 [32mGET[39m /script/fetch.js
+18:10:02 [32mGET[39m /script/main.js
+18:10:02 [32mGET[39m /script/templateLoader.js
+18:10:03 [32mGET[39m /
+18:10:03 [32mGET[39m /script/fetch.js
+18:10:03 [32mGET[39m /script/templateLoader.js
+18:10:03 [32mGET[39m /script/main.js
+18:10:03 [32mGET[39m /
+18:10:03 [32mGET[39m /script/fetch.js
+18:10:03 [32mGET[39m /script/templateLoader.js
+18:10:03 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+18:10:18 [32mGET[39m /
+18:10:18 [32mGET[39m /script/fetch.js
+18:10:18 [32mGET[39m /script/templateLoader.js
+18:10:18 [32mGET[39m /script/main.js
+18:10:19 [32mGET[39m /
+18:10:19 [32mGET[39m /script/fetch.js
+18:10:19 [32mGET[39m /script/templateLoader.js
+18:10:19 [32mGET[39m /script/main.js
+18:10:19 [32mGET[39m /
+18:10:19 [32mGET[39m /script/fetch.js
+18:10:19 [32mGET[39m /script/templateLoader.js
+18:10:19 [32mGET[39m /script/main.js
+18:11:18 [32mGET[39m /
+18:11:18 [32mGET[39m /script/fetch.js
+18:11:18 [32mGET[39m /script/templateLoader.js
+18:11:18 [32mGET[39m /script/main.js
+18:11:19 [32mGET[39m /
+18:11:19 [32mGET[39m /script/fetch.js
+18:11:19 [32mGET[39m /script/templateLoader.js
+18:11:19 [32mGET[39m /script/main.js
+18:11:35 [32mGET[39m /
+18:11:35 [32mGET[39m /script/fetch.js
+18:11:35 [32mGET[39m /script/templateLoader.js
+18:11:35 [32mGET[39m /script/main.js
+18:11:40 [32mGET[39m /
+18:11:40 [32mGET[39m /script/fetch.js
+18:11:40 [32mGET[39m /script/templateLoader.js
+18:11:40 [32mGET[39m /script/main.js
+18:12:15 [32mGET[39m /
+18:12:15 [32mGET[39m /script/fetch.js
+18:12:15 [32mGET[39m /script/templateLoader.js
+18:12:15 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+18:15:39 [32mGET[39m /
+18:15:39 [32mGET[39m /script/fetch.js
+18:15:39 [32mGET[39m /script/templateLoader.js
+18:15:39 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+18:45:20 [32mGET[39m /
+18:45:20 [32mGET[39m /script/fetch.js
+18:45:20 [32mGET[39m /script/templateLoader.js
+18:45:20 [32mGET[39m /script/main.js
+18:45:21 [32mGET[39m /
+18:45:21 [32mGET[39m /script/fetch.js
+18:45:21 [32mGET[39m /script/templateLoader.js
+18:45:21 [32mGET[39m /script/main.js
+18:45:21 [32mGET[39m /
+18:45:21 [32mGET[39m /script/fetch.js
+18:45:21 [32mGET[39m /script/main.js
+18:45:21 [32mGET[39m /script/templateLoader.js
+18:45:22 [32mGET[39m /
+18:45:22 [32mGET[39m /script/fetch.js
+18:45:22 [32mGET[39m /script/templateLoader.js
+18:45:22 [32mGET[39m /script/main.js
+18:45:22 [32mGET[39m /
+18:45:22 [32mGET[39m /script/fetch.js
+18:45:22 [32mGET[39m /script/templateLoader.js
+18:45:22 [32mGET[39m /script/main.js
+21:42:38 [32mGET[39m /
+21:42:39 [32mGET[39m /script/fetch.js
+21:42:39 [32mGET[39m /script/templateLoader.js
+21:42:39 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+22:01:51 [32mGET[39m /
+22:01:51 [32mGET[39m /script/fetch.js
+22:01:51 [32mGET[39m /script/templateLoader.js
+22:01:51 [32mGET[39m /script/main.js
+22:01:52 [32mGET[39m /
+22:01:52 [32mGET[39m /script/fetch.js
+22:01:52 [32mGET[39m /script/templateLoader.js
+22:01:52 [32mGET[39m /script/main.js
+22:02:00 [33mPOST[39m /login
+22:02:21 [32mGET[39m /
+22:02:21 [32mGET[39m /script/fetch.js
+22:02:21 [32mGET[39m /script/templateLoader.js
+22:02:21 [32mGET[39m /script/main.js
+22:02:27 [33mPOST[39m /login
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+22:06:02 [32mGET[39m /
+22:06:02 [32mGET[39m /script/fetch.js
+22:06:02 [32mGET[39m /script/templateLoader.js
+22:06:02 [32mGET[39m /script/main.js
+22:06:07 [33mPOST[39m /login
+22:21:14 [33mPOST[39m /login
+22:21:15 [33mPOST[39m /login
+22:21:16 [33mPOST[39m /login
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+22:22:26 [32mGET[39m /
+22:22:26 [32mGET[39m /script/fetch.js
+22:22:26 [32mGET[39m /script/templateLoader.js
+22:22:26 [32mGET[39m /script/main.js
+22:22:32 [33mPOST[39m /login
+23:29:47 [32mGET[39m /
+23:29:47 [32mGET[39m /script/fetch.js
+23:29:47 [32mGET[39m /script/templateLoader.js
+23:29:47 [32mGET[39m /script/main.js
+23:29:48 [32mGET[39m /
+23:29:48 [32mGET[39m /script/fetch.js
+23:29:48 [32mGET[39m /script/templateLoader.js
+23:29:48 [32mGET[39m /script/main.js
+23:30:10 [32mGET[39m /
+23:30:10 [32mGET[39m /script/fetch.js
+23:30:10 [32mGET[39m /script/templateLoader.js
+23:30:10 [32mGET[39m /script/main.js
+23:30:11 [32mGET[39m /
+23:30:11 [32mGET[39m /script/fetch.js
+23:30:11 [32mGET[39m /script/templateLoader.js
+23:30:11 [32mGET[39m /script/main.js
+23:30:11 [32mGET[39m /
+23:30:11 [32mGET[39m /script/fetch.js
+23:30:11 [32mGET[39m /script/templateLoader.js
+23:30:11 [32mGET[39m /script/main.js
+23:30:12 [32mGET[39m /
+23:30:12 [32mGET[39m /script/fetch.js
+23:30:12 [32mGET[39m /script/templateLoader.js
+23:30:12 [32mGET[39m /script/main.js
+23:30:13 [32mGET[39m /
+23:30:13 [32mGET[39m /script/fetch.js
+23:30:13 [32mGET[39m /script/templateLoader.js
+23:30:13 [32mGET[39m /script/main.js
+23:30:13 [32mGET[39m /
+23:30:13 [32mGET[39m /script/fetch.js
+23:30:13 [32mGET[39m /script/templateLoader.js
+23:30:13 [32mGET[39m /script/main.js
+23:30:13 [32mGET[39m /
+23:30:13 [32mGET[39m /script/fetch.js
+23:30:13 [32mGET[39m /script/templateLoader.js
+23:30:13 [32mGET[39m /script/main.js
+23:30:13 [32mGET[39m /
+23:30:13 [32mGET[39m /script/fetch.js
+23:30:13 [32mGET[39m /script/templateLoader.js
+23:30:13 [32mGET[39m /script/main.js
+23:30:14 [32mGET[39m /
+23:30:14 [32mGET[39m /script/fetch.js
+23:30:14 [32mGET[39m /script/templateLoader.js
+23:30:14 [32mGET[39m /script/main.js
+23:30:14 [32mGET[39m /
+23:30:14 [32mGET[39m /script/fetch.js
+23:30:14 [32mGET[39m /script/templateLoader.js
+23:30:14 [32mGET[39m /script/main.js
+23:30:14 [32mGET[39m /
+23:30:14 [32mGET[39m /script/fetch.js
+23:30:14 [32mGET[39m /script/templateLoader.js
+23:30:14 [32mGET[39m /script/main.js
+23:31:16 [32mGET[39m /
+23:31:16 [32mGET[39m /script/fetch.js
+23:31:16 [32mGET[39m /script/templateLoader.js
+23:31:16 [32mGET[39m /script/main.js
+23:31:17 [32mGET[39m /
+23:31:17 [32mGET[39m /script/fetch.js
+23:31:17 [32mGET[39m /script/templateLoader.js
+23:31:17 [32mGET[39m /script/main.js
+####################
+Database connection  undefined
+####################
+Server enviorment prod
+17:40:17 [32mGET[39m /
+17:40:17 [32mGET[39m /script/templateLoader.js
+17:40:17 [32mGET[39m /script/main.js
+17:40:17 [32mGET[39m /script/fetch.js
+18:17:51 [32mGET[39m /
+18:17:51 [32mGET[39m /script/fetch.js
+18:17:51 [32mGET[39m /script/templateLoader.js
+18:17:51 [32mGET[39m /script/main.js
+Server enviorment prod
+####################
+Database connection  undefined
+####################
+13:29:18 [32mGET[39m /
+13:29:18 [32mGET[39m /script/fetch.js
+13:29:18 [32mGET[39m /script/templateLoader.js
+13:29:18 [32mGET[39m /script/main.js
+13:29:18 [32mGET[39m /
+13:29:18 [32mGET[39m /script/fetch.js
+13:29:18 [32mGET[39m /script/templateLoader.js
+13:29:18 [32mGET[39m /script/main.js
+13:29:19 [32mGET[39m /
+13:29:19 [32mGET[39m /script/fetch.js
+13:29:19 [32mGET[39m /script/templateLoader.js
+13:29:19 [32mGET[39m /script/main.js
+13:29:19 [32mGET[39m /
+13:29:19 [32mGET[39m /script/fetch.js
+13:29:19 [32mGET[39m /script/templateLoader.js
+13:29:19 [32mGET[39m /script/main.js
+13:29:19 [32mGET[39m /
+13:29:19 [32mGET[39m /script/fetch.js
+13:29:19 [32mGET[39m /script/templateLoader.js
+13:29:19 [32mGET[39m /script/main.js
+13:34:01 [32mGET[39m /
+13:34:01 [32mGET[39m /script/fetch.js
+13:34:01 [32mGET[39m /script/templateLoader.js
+13:34:01 [32mGET[39m /script/main.js
+13:39:13 [32mGET[39m /recepie
+13:39:17 [32mGET[39m /
+13:39:17 [32mGET[39m /script/fetch.js
+13:39:17 [32mGET[39m /script/templateLoader.js
+13:39:17 [32mGET[39m /script/main.js
+13:39:27 [32mGET[39m /
+13:39:27 [32mGET[39m /script/fetch.js
+13:39:27 [32mGET[39m /script/templateLoader.js
+13:39:27 [32mGET[39m /script/main.js
+13:43:09 [32mGET[39m /login
+13:43:27 [32mGET[39m /
+13:43:27 [32mGET[39m /script/fetch.js
+13:43:27 [32mGET[39m /script/templateLoader.js
+13:43:27 [32mGET[39m /script/main.js
+13:43:28 [32mGET[39m /
+13:43:28 [32mGET[39m /script/fetch.js
+13:43:28 [32mGET[39m /script/templateLoader.js
+13:43:28 [32mGET[39m /script/main.js
+13:43:28 [32mGET[39m /
+13:43:28 [32mGET[39m /script/fetch.js
+13:43:28 [32mGET[39m /script/templateLoader.js
+13:43:28 [32mGET[39m /script/main.js
+13:43:29 [32mGET[39m /favicon.ico
+13:43:29 [32mGET[39m /
+13:43:29 [32mGET[39m /script/fetch.js
+13:43:29 [32mGET[39m /script/templateLoader.js
+13:43:29 [32mGET[39m /script/main.js
+13:58:36 [32mGET[39m /user/login
+13:59:03 [32mGET[39m /user/
+Demo of logging tool
+A important msg
+13:59:40 [32mGET[39m /user/
+Demo of logging tool
+A important msg
+13:59:50 [32mGET[39m /user/login
+14:00:02 [32mGET[39m /login
+14:00:06 [32mGET[39m /login
+14:00:10 [32mGET[39m /user
+Demo of logging tool
+A important msg
+14:00:18 [32mGET[39m /user/login
+14:18:03 [32mGET[39m /
+14:18:03 [32mGET[39m /script/fetch.js
+14:18:03 [32mGET[39m /script/templateLoader.js
+14:18:03 [32mGET[39m /script/main.js
+14:33:44 [32mGET[39m /
+14:33:44 [32mGET[39m /script/fetch.js
+14:33:44 [32mGET[39m /script/templateLoader.js
+14:33:44 [32mGET[39m /script/main.js
+14:33:50 [33mPOST[39m /login
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+14:34:13 [32mGET[39m /
+14:34:13 [32mGET[39m /script/fetch.js
+14:34:13 [32mGET[39m /script/templateLoader.js
+14:34:13 [32mGET[39m /script/main.js
+14:34:20 [33mPOST[39m /login
+14:34:28 [33mPOST[39m /login
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+14:41:11 [32mGET[39m /
+14:41:11 [32mGET[39m /script/fetch.js
+14:41:11 [32mGET[39m /script/templateLoader.js
+14:41:11 [32mGET[39m /script/main.js
+14:41:11 [32mGET[39m /favicon.ico
+14:44:03 [32mGET[39m /
+14:44:03 [32mGET[39m /script/fetch.js
+14:44:03 [32mGET[39m /script/templateLoader.js
+14:44:03 [32mGET[39m /script/main.js
+14:44:08 [33mPOST[39m /login
+14:44:36 [32mGET[39m /
+14:44:36 [32mGET[39m /script/fetch.js
+14:44:36 [32mGET[39m /script/templateLoader.js
+14:44:36 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+15:12:24 [32mGET[39m /
+15:12:24 [32mGET[39m /script/fetch.js
+15:12:24 [32mGET[39m /script/templateLoader.js
+15:12:24 [32mGET[39m /script/main.js
+15:12:24 [32mGET[39m /favicon.ico
+15:12:29 [33mPOST[39m /login
+15:13:35 [32mGET[39m /
+15:13:35 [32mGET[39m /script/fetch.js
+15:13:35 [32mGET[39m /script/templateLoader.js
+15:13:35 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+15:55:09 [32mGET[39m /
+15:55:09 [32mGET[39m /script/fetch.js
+15:55:09 [32mGET[39m /script/templateLoader.js
+15:55:09 [32mGET[39m /script/main.js
+15:55:09 [32mGET[39m /
+15:55:09 [32mGET[39m /script/fetch.js
+15:55:09 [32mGET[39m /script/templateLoader.js
+15:55:09 [32mGET[39m /script/main.js
+15:55:09 [32mGET[39m /
+15:55:09 [32mGET[39m /script/fetch.js
+15:55:09 [32mGET[39m /script/templateLoader.js
+15:55:09 [32mGET[39m /script/main.js
+15:55:10 [32mGET[39m /
+15:55:10 [32mGET[39m /script/fetch.js
+15:55:10 [32mGET[39m /script/templateLoader.js
+15:55:10 [32mGET[39m /script/main.js
+15:55:17 [33mPOST[39m /login
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+15:58:13 [32mGET[39m /
+15:58:13 [32mGET[39m /script/fetch.js
+15:58:13 [32mGET[39m /script/templateLoader.js
+15:58:13 [32mGET[39m /script/main.js
+15:58:20 [33mPOST[39m /login
+16:48:06 [33mPOST[39m /login
+16:48:25 [32mGET[39m /
+16:48:25 [32mGET[39m /script/fetch.js
+16:48:25 [32mGET[39m /script/templateLoader.js
+16:48:25 [32mGET[39m /script/main.js
+16:48:31 [33mPOST[39m /login
+16:48:34 [33mPOST[39m /login
+16:48:34 [33mPOST[39m /login
+16:48:35 [33mPOST[39m /login
+16:48:35 [33mPOST[39m /login
+16:48:35 [33mPOST[39m /login
+16:48:35 [33mPOST[39m /login
+16:48:36 [33mPOST[39m /login
+16:48:36 [33mPOST[39m /login
+16:48:36 [33mPOST[39m /login
+16:48:36 [33mPOST[39m /login
+16:48:36 [33mPOST[39m /login
+16:48:36 [33mPOST[39m /login
+16:48:37 [33mPOST[39m /login
+16:48:37 [33mPOST[39m /login
+16:48:37 [33mPOST[39m /login
+16:48:37 [33mPOST[39m /login
+16:48:37 [33mPOST[39m /login
+16:48:38 [32mGET[39m /
+16:48:38 [32mGET[39m /script/fetch.js
+16:48:38 [32mGET[39m /script/templateLoader.js
+16:48:38 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+16:48:49 [33mPOST[39m /login
+16:54:15 [32mGET[39m /
+16:54:15 [32mGET[39m /script/fetch.js
+16:54:15 [32mGET[39m /script/templateLoader.js
+16:54:15 [32mGET[39m /script/main.js
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+17:00:15 [32mGET[39m /
+17:00:15 [32mGET[39m /script/fetch.js
+17:00:15 [32mGET[39m /script/templateLoader.js
+17:00:15 [32mGET[39m /script/main.js
+17:00:19 [32mGET[39m /
+17:00:19 [32mGET[39m /script/fetch.js
+17:00:19 [32mGET[39m /script/templateLoader.js
+17:00:19 [32mGET[39m /script/main.js
+17:00:27 [32mGET[39m /
+17:00:28 [32mGET[39m /script/fetch.js
+17:00:28 [32mGET[39m /script/main.js
+17:00:28 [32mGET[39m /script/templateLoader.js
+17:01:26 [33mPOST[39m /login
+17:01:44 [32mGET[39m /
+17:01:44 [32mGET[39m /script/fetch.js
+17:01:44 [32mGET[39m /script/templateLoader.js
+17:01:44 [32mGET[39m /script/main.js
+17:02:03 [32mGET[39m /
+17:02:03 [32mGET[39m /script/fetch.js
+17:02:03 [32mGET[39m /script/templateLoader.js
+17:02:03 [32mGET[39m /script/main.js
+17:02:04 [32mGET[39m /
+17:02:04 [32mGET[39m /script/fetch.js
+17:02:04 [32mGET[39m /script/templateLoader.js
+17:02:04 [32mGET[39m /script/main.js
+17:02:57 [32mGET[39m /
+17:02:57 [32mGET[39m /script/fetch.js
+17:02:57 [32mGET[39m /script/templateLoader.js
+17:02:57 [32mGET[39m /script/main.js
+17:03:07 [32mGET[39m /
+17:03:07 [32mGET[39m /script/fetch.js
+17:03:07 [32mGET[39m /script/templateLoader.js
+17:03:07 [32mGET[39m /script/main.js
+17:03:09 [33mPOST[39m /login
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+22:22:08 [32mGET[39m /
+22:22:08 [32mGET[39m /script/fetch.js
+22:22:08 [32mGET[39m /script/templateLoader.js
+22:22:08 [32mGET[39m /script/main.js
+22:22:08 [32mGET[39m /favicon.ico
+22:22:12 [33mPOST[39m /login

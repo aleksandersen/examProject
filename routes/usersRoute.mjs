@@ -2,12 +2,7 @@ import express, { response } from "express";
 import User from "../modules/user.mjs";
 import { HTTPCodes } from "../modules/httpConstants.mjs";
 import SuperLogger from "../modules/SuperLogger.mjs";
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
+import DBManager from "../modules/storageManager.mjs"
 
 const USER_API = express.Router();
 USER_API.use(express.json()); // This makes it so that express parses all incoming payloads as JSON for this route.
@@ -17,8 +12,6 @@ const users = [];
 USER_API.get('/', (req, res, next) => {
     SuperLogger.log("Demo of logging tool");
     SuperLogger.log("A important msg", SuperLogger.LOGGING_LEVELS.CRTICAL);
-    const joinName = join(__dirname, '../public/login.html');
-    res.sendFile(joinName);
 })
 
 
@@ -32,8 +25,20 @@ USER_API.get('/:id', (req, res, next) => {
 });
 
 
-USER_API.post('/login',  (req, res, next) => {
+USER_API.post('/login', async  (req, res, next) => {
     //TODO: Login user
+
+    const {userEMail, userPassword} = req.body;
+    console.log(`userEMail = ${userEMail}`, `userPassword = ${userPassword}`);
+
+    const userInfo = await checkIfLoggedIn(userEMail, userPassword);
+
+    if(userInfo){
+      res.status(200).send({message: "User Ok", code: 200, data: userInfo});
+    }else{
+      res.status(401).send({message: "Wrong user name or password!", data: null});
+    }
+
 });
 
 USER_API.post('/', async (req, res, next) => {
@@ -50,7 +55,7 @@ USER_API.post('/', async (req, res, next) => {
         user.email = email;
 
         ///TODO: Do not save passwords.
-        user.pswHash = password;
+        user.password = password;
 
         ///TODO: Does the user exist?
         let exists = false;
@@ -80,5 +85,6 @@ USER_API.delete('/:id', (req, res) => {
     const user = new User(); //TODO: Actual user
     user.delete();
 });
+
 
 export default USER_API

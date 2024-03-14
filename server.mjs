@@ -3,9 +3,11 @@ import express from "express"; // Express is installed using npm
 import pg from "pg"
 import USER_API from "./routes/usersRoute.mjs"; // This is where we have defined the API for working with users.
 import SuperLogger from "./modules/SuperLogger.mjs";
-import { User, ReqUserLogin } from "./modules/user.mjs";
+import { User } from "./modules/user.mjs";
 import recepie_API from "./routes/recepieRoutes.mjs";
 import printDeveloperStartupInportantInformationMSG from "./modules/developerHelpers.mjs";
+import DBManager from './modules/storageManager.mjs';
+
 
 printDeveloperStartupInportantInformationMSG();
 
@@ -14,6 +16,10 @@ const server = express();
 // Selecting a port for the server to use.
 const port = process.env.PORT || 8080;
 server.set("port", port);
+
+
+
+DBManager.checkIfLoggedIn("test", "test");
 
 // Enable logging for server
 const logger = new SuperLogger();0
@@ -38,3 +44,5 @@ server.get("/", (req, res, next) => {
 server.listen(server.get("port"), function () {
   console.log("server running", server.get("port"));
 });
+
+
