@@ -1677,3 +1677,81 @@ Database connection  postgres://postgres:1234@localhost:5432/recipe_db
 19:04:08 [32mGET[39m /script/templateLoader.js
 19:04:08 [32mGET[39m /script/allPages.mjs
 19:04:08 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+19:27:25 [32mGET[39m /
+19:27:25 [32mGET[39m /script/templateLoader.js
+19:27:25 [32mGET[39m /script/allPages.mjs
+19:27:25 [32mGET[39m /script/userFunctions.mjs
+19:53:40 [32mGET[39m /
+19:53:40 [32mGET[39m /script/templateLoader.js
+19:53:40 [32mGET[39m /script/allPages.mjs
+19:53:40 [32mGET[39m /script/userFunctions.mjs
+22:20:52 [32mGET[39m /
+22:20:52 [32mGET[39m /script/templateLoader.js
+22:20:52 [32mGET[39m /script/allPages.mjs
+22:20:52 [32mGET[39m /script/userFunctions.mjs
+22:21:01 [32mGET[39m /
+22:21:01 [32mGET[39m /script/templateLoader.js
+22:21:01 [32mGET[39m /script/allPages.mjs
+22:21:01 [32mGET[39m /script/userFunctions.mjs
+23:33:58 [32mGET[39m /
+23:33:58 [32mGET[39m /script/templateLoader.js
+23:33:58 [32mGET[39m /script/allPages.mjs
+23:33:58 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+23:44:07 [32mGET[39m /?
+23:44:07 [32mGET[39m /script/templateLoader.js
+23:44:07 [32mGET[39m /script/allPages.mjs
+23:44:07 [32mGET[39m /script/userFunctions.mjs
+23:44:30 [33mPOST[39m /user/login
+23:45:02 [32mGET[39m /?
+23:45:02 [32mGET[39m /script/templateLoader.js
+23:45:02 [32mGET[39m /script/allPages.mjs
+23:45:02 [32mGET[39m /script/userFunctions.mjs
+23:47:15 [33mPOST[39m /user/login
+23:47:34 [32mGET[39m /?
+23:47:34 [32mGET[39m /script/templateLoader.js
+23:47:34 [32mGET[39m /script/allPages.mjs
+23:47:34 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+23:48:11 [32mGET[39m /?
+23:48:11 [32mGET[39m /script/templateLoader.js
+23:48:11 [32mGET[39m /script/allPages.mjs
+23:48:11 [32mGET[39m /script/userFunctions.mjs
+23:48:27 [32mGET[39m /?
+23:48:27 [32mGET[39m /script/templateLoader.js
+23:48:27 [32mGET[39m /script/allPages.mjs
+23:48:27 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+23:54:00 [32mGET[39m /?
+23:54:00 [32mGET[39m /script/templateLoader.js
+23:54:00 [32mGET[39m /script/allPages.mjs
+23:54:00 [32mGET[39m /script/userFunctions.mjs
+23:54:19 [32mGET[39m /?
+23:54:19 [32mGET[39m /script/templateLoader.js
+23:54:19 [32mGET[39m /script/allPages.mjs
+23:54:19 [32mGET[39m /script/userFunctions.mjs
+23:59:38 [32mGET[39m /?
+23:59:38 [32mGET[39m /script/templateLoader.js
+23:59:38 [32mGET[39m /script/allPages.mjs
+23:59:38 [32mGET[39m /script/userFunctions.mjs
+23:59:56 [32mGET[39m /?
+23:59:56 [32mGET[39m /script/templateLoader.js
+23:59:56 [32mGET[39m /script/allPages.mjs
+23:59:56 [32mGET[39m /script/userFunctions.mjs

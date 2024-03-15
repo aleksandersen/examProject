@@ -1,8 +1,8 @@
 import express, { response } from "express";
+import db from "../modules/databasePool.mjs";
 import User from "../modules/user.mjs";
 import { HTTPCodes } from "../modules/httpConstants.mjs";
 import SuperLogger from "../modules/Middlewares/SuperLogger.mjs";
-import DBManager from "../modules/storageManager.mjs"
 
 const USER_API = express.Router();
 USER_API.use(express.json()); // This makes it so that express parses all incoming payloads as JSON for this route.
@@ -12,70 +12,53 @@ const users = [];
 
 
 
-USER_API.get('/:id', (req, res, next) => {
+USER_API.get('/:id', async (req, res, next) => {
 
-    // Tip: All the information you need to get the id part of the request can be found in the documentation 
-    // https://expressjs.com/en/guide/routing.html (Route parameters)
-
-    /// TODO: 
-    // Return user object
+    const user = await db.query("SELECT * FROM users WHERE userid = $1", [req.body.id]);
 });
 
 
-USER_API.post('/login', async  (req, res, next) => {
-    //TODO: Login user
+USER_API.post("/loginUser", async (req, res) => {
+    const { email, password } = req.body;
 
-    const {userEMail, userPassword} = req.body;
-    console.log(`userEMail = ${userEMail}`, `userPassword = ${userPassword}`);
+    try {
+        // Sjekk om brukeren eksisterer i databasen
+        const user = await db.query("SELECT * FROM users WHERE email = $1", [
+            email,
+        ]);
 
-    const userInfo = await checkIfLoggedIn(userEMail, userPassword);
+        if (user.rows.length === 0) {
+            return res.status(401).json({ message: "Invalid email or password" });
+        };
 
-    if(userInfo){
-      res.status(200).send({message: "User Ok", code: 200, data: userInfo});
-    }else{
-      res.status(401).send({message: "Wrong user name or password!", data: null});
+
+    } catch (error) {
+        console.error(error.message);
+        res.status(500).send("Server error");
     }
-
 });
 
-USER_API.post('/', async (req, res, next) => {
-
-    // This is using javascript object destructuring.
-    // Recomend reading up https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#syntax
-    // https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter/
-    const { name, email, password } = req.body;
 
 
-    if (name != "" && email != "" && password != "") {
-        let user = new User();
-        user.name = name;
-        user.email = email;
 
-        ///TODO: Do not save passwords.
-        user.password = password;
-
-        ///TODO: Does the user exist?
-        let exists = false;
-
-        if (!exists) {
-            //TODO: What happens if this fails?
-            user = await user.save();
-            res.status(HTTPCodes.SuccesfullRespons.Ok).json(JSON.stringify(user)).end();
-        } else {
-            res.status(HTTPCodes.ClientSideErrorRespons.BadRequest).end();
+USER_API.post('/createUser', async (req, res) => {
+    const { email, name, password } = req.body;
+    try {
+        const result = await db.query(
+            'INSERT INTO Users(email, name, password) VALUES($1, $2, $3) RETURNING *',
+            [email, name, password]
+        );
+        if (result && result.rows) {
+            const responseForm = { msg: "User was created", code: 200, data: { userID: result.rows[0].userid } }
+            res.json(responseForm);
         }
-
-    } else {
-        res.status(HTTPCodes.ClientSideErrorRespons.BadRequest).send("Mangler data felt").end();
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Server error');
     }
-
 });
 
-USER_API.post('/:id', (req, res, next) => {
-    /// TODO: Edit user
-    const user = new User(); //TODO: The user info comes as part of the request 
-    user.save();
-});
+
 
 USER_API.delete('/:id', (req, res) => {
     /// TODO: Delete user.

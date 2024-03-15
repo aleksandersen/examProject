@@ -6,7 +6,6 @@ import SuperLogger from "./modules/Middlewares/SuperLogger.mjs";
 import { User } from "./modules/user.mjs";
 import recepie_API from "./routes/recepieRoutes.mjs";
 import printDeveloperStartupInportantInformationMSG from "./modules/Middlewares/developerHelpers.mjs";
-import DBManager from './modules/storageManager.mjs';
 
 
 printDeveloperStartupInportantInformationMSG();
@@ -18,7 +17,6 @@ const port = process.env.PORT || 8080;
 server.set("port", port);
 
 
-DBManager.checkIfLoggedIn("test", "test");
 
 // Enable logging for server
 const logger = new SuperLogger();0

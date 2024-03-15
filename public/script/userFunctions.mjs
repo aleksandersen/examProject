@@ -21,7 +21,7 @@ async function loginUser(evt) {
   const email = document.getElementById("loginMail").value;
   const password = document.getElementById("loginPassword").value;
 
-  const response = await postTo("/user/login", { email, password });
+  const response = await sendDataToServer("/user/login", { email, password });
 
   if (response.ok) {
     const data = await response.json();
