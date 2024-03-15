@@ -2,10 +2,10 @@ import 'dotenv/config'
 import express from "express"; // Express is installed using npm
 import pg from "pg"
 import USER_API from "./routes/usersRoute.mjs"; // This is where we have defined the API for working with users.
-import SuperLogger from "./modules/SuperLogger.mjs";
+import SuperLogger from "./modules/Middlewares/SuperLogger.mjs";
 import { User } from "./modules/user.mjs";
 import recepie_API from "./routes/recepieRoutes.mjs";
-import printDeveloperStartupInportantInformationMSG from "./modules/developerHelpers.mjs";
+import printDeveloperStartupInportantInformationMSG from "./modules/Middlewares/developerHelpers.mjs";
 import DBManager from './modules/storageManager.mjs';
 
 
@@ -16,7 +16,6 @@ const server = express();
 // Selecting a port for the server to use.
 const port = process.env.PORT || 8080;
 server.set("port", port);
-
 
 
 DBManager.checkIfLoggedIn("test", "test");
@@ -35,10 +34,6 @@ server.use("/user", USER_API);
 //Telling the server to use recepie_API
 server.use("/recepie", recepie_API);
 
-// A get request handler example)
-server.get("/", (req, res, next) => {
-  res.status(200).send(JSON.stringify({ msg: "These are not the droids...." })).end();
-});
 
 // Start the server
 server.listen(server.get("port"), function () {

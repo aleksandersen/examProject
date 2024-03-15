@@ -2,6 +2,7 @@
 function loadTemplate(aTemplateID, aDestElement, aEmptyElement = false){
   
   const tl = document.getElementById(aTemplateID);
+
   if(tl.content){
     const clone = tl.content.cloneNode(true);
     if(aEmptyElement){
@@ -17,6 +18,6 @@ function emptyContainerElement(aElement){
   let child = aElement.firstChild;
   while(child){
     aElement.removeChild(child);
-    child = aElement.firstChild();
+    child = aElement.firstChild;
   }
 }

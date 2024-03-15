@@ -1,7 +1,7 @@
 import express, { response } from "express";
 import User from "../modules/user.mjs";
 import { HTTPCodes } from "../modules/httpConstants.mjs";
-import SuperLogger from "../modules/SuperLogger.mjs";
+import SuperLogger from "../modules/Middlewares/SuperLogger.mjs";
 import DBManager from "../modules/storageManager.mjs"
 
 const USER_API = express.Router();
@@ -9,10 +9,7 @@ USER_API.use(express.json()); // This makes it so that express parses all incomi
 
 const users = [];
 
-USER_API.get('/', (req, res, next) => {
-    SuperLogger.log("Demo of logging tool");
-    SuperLogger.log("A important msg", SuperLogger.LOGGING_LEVELS.CRTICAL);
-})
+
 
 
 USER_API.get('/:id', (req, res, next) => {

@@ -1,6 +1,6 @@
 
 import Chalk from "chalk";
-import { HTTPMethods } from "./httpConstants.mjs"
+import { HTTPMethods } from "../httpConstants.mjs"
 import fs from "fs/promises"
 
 //#region  Construct for decorating output.
