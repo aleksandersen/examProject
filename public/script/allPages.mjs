@@ -33,11 +33,18 @@ async function loginPage() {
   const loginForm = document.getElementById("loginForm");
 
   const logInBtn = document.getElementById("logInBtn");
-  logInBtn.addEventListener("click", loginUser);
+  logInBtn.addEventListener("click", function(evt){
+    loginUser()
+  });
 
   
   const newUserBtn = document.getElementById("newUserBtn");
   newUserBtn.addEventListener("click", function (evt) {
     loadTemplate("tlCreateNewUser", divContent, true);
+    createUser();
   });
+
+
+
+
 }

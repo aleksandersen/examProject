@@ -1755,3 +1755,627 @@ Database connection  postgres://postgres:1234@localhost:5432/recipe_db
 23:59:56 [32mGET[39m /script/templateLoader.js
 23:59:56 [32mGET[39m /script/allPages.mjs
 23:59:56 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+00:19:07 [32mGET[39m /?
+00:19:07 [32mGET[39m /script/templateLoader.js
+00:19:07 [32mGET[39m /script/allPages.mjs
+00:19:07 [32mGET[39m /script/userFunctions.mjs
+00:19:13 [33mPOST[39m /user/login
+00:19:16 [33mPOST[39m /user/login
+00:19:45 [32mGET[39m /?
+00:19:45 [32mGET[39m /script/templateLoader.js
+00:19:45 [32mGET[39m /script/allPages.mjs
+00:19:45 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+00:34:13 [32mGET[39m /
+00:34:13 [32mGET[39m /script/templateLoader.js
+00:34:13 [32mGET[39m /script/allPages.mjs
+00:34:13 [32mGET[39m /script/userFunctions.mjs
+00:34:13 [32mGET[39m /favicon.ico
+00:34:27 [32mGET[39m /?
+00:34:27 [32mGET[39m /script/templateLoader.js
+00:34:27 [32mGET[39m /script/allPages.mjs
+00:34:27 [32mGET[39m /script/userFunctions.mjs
+00:35:05 [32mGET[39m /createUser
+####################
+Server enviorment prod
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+00:51:37 [32mGET[39m /
+00:51:37 [32mGET[39m /script/templateLoader.js
+00:51:37 [32mGET[39m /script/allPages.mjs
+00:51:37 [32mGET[39m /script/userFunctions.mjs
+00:51:50 [32mGET[39m /?
+00:51:50 [32mGET[39m /script/templateLoader.js
+00:51:50 [32mGET[39m /script/allPages.mjs
+00:51:50 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+11:43:01 [32mGET[39m /?
+11:43:01 [32mGET[39m /script/templateLoader.js
+11:43:01 [32mGET[39m /script/allPages.mjs
+11:43:01 [32mGET[39m /script/userFunctions.mjs
+11:43:01 [32mGET[39m /favicon.ico
+11:43:05 [32mGET[39m /?
+11:43:05 [32mGET[39m /script/templateLoader.js
+11:43:05 [32mGET[39m /script/allPages.mjs
+11:43:05 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+####################
+11:44:33 [32mGET[39m /
+11:44:33 [32mGET[39m /script/templateLoader.js
+11:44:33 [32mGET[39m /script/allPages.mjs
+11:44:33 [32mGET[39m /script/userFunctions.mjs
+11:44:50 [32mGET[39m /?
+11:44:50 [32mGET[39m /script/templateLoader.js
+11:44:50 [32mGET[39m /script/allPages.mjs
+11:44:50 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_db
+13:49:21 [32mGET[39m /?
+13:49:21 [32mGET[39m /script/templateLoader.js
+13:49:21 [32mGET[39m /script/allPages.mjs
+13:49:21 [32mGET[39m /script/userFunctions.mjs
+13:49:21 [32mGET[39m /favicon.ico
+13:49:34 [33mPOST[39m /user/login
+13:49:52 [32mGET[39m /?
+13:49:52 [32mGET[39m /script/templateLoader.js
+13:49:52 [32mGET[39m /script/allPages.mjs
+13:49:52 [32mGET[39m /script/userFunctions.mjs
+14:06:50 [32mGET[39m /?
+14:06:50 [32mGET[39m /script/templateLoader.js
+14:06:50 [32mGET[39m /script/allPages.mjs
+14:06:50 [32mGET[39m /script/userFunctions.mjs
+14:06:53 [33mPOST[39m /user/login
+14:07:10 [32mGET[39m /?
+14:07:10 [32mGET[39m /script/templateLoader.js
+14:07:10 [32mGET[39m /script/allPages.mjs
+14:07:10 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+14:07:43 [32mGET[39m /?
+14:07:43 [32mGET[39m /script/templateLoader.js
+14:07:43 [32mGET[39m /script/allPages.mjs
+14:07:43 [32mGET[39m /script/userFunctions.mjs
+14:07:45 [33mPOST[39m /user/login
+####################
+Server enviorment undefined
+Database connection  undefined
+####################
+14:17:33 [32mGET[39m /
+14:17:33 [32mGET[39m /script/templateLoader.js
+14:17:33 [32mGET[39m /script/allPages.mjs
+14:17:33 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment undefined
+Database connection  undefined
+####################
+14:19:46 [32mGET[39m /?
+14:19:46 [32mGET[39m /script/templateLoader.js
+14:19:46 [32mGET[39m /script/allPages.mjs
+14:19:46 [32mGET[39m /script/userFunctions.mjs
+####################
+Database connection  undefined
+Server enviorment undefined
+####################
+14:20:00 [32mGET[39m /?
+14:20:00 [32mGET[39m /script/templateLoader.js
+14:20:00 [32mGET[39m /script/allPages.mjs
+14:20:00 [32mGET[39m /script/userFunctions.mjs
+14:20:12 [32mGET[39m /?
+14:20:12 [32mGET[39m /script/templateLoader.js
+14:20:12 [32mGET[39m /script/allPages.mjs
+14:20:12 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment undefined
+Database connection  undefined
+####################
+####################
+Server enviorment undefined
+Database connection  undefined
+####################
+####################
+Server enviorment undefined
+####################
+Database connection  undefined
+####################
+Server enviorment undefined
+Database connection  undefined
+####################
+####################
+Server enviorment undefined
+Database connection  undefined
+####################
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+####################
+Server enviorment prod
+Database connection  undefined
+####################
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_db?ssl=true
+####################
+14:31:24 [32mGET[39m /?
+14:31:24 [32mGET[39m /script/templateLoader.js
+14:31:24 [32mGET[39m /script/allPages.mjs
+14:31:24 [32mGET[39m /script/userFunctions.mjs
+14:31:34 [33mPOST[39m /user/login
+14:31:54 [32mGET[39m /?
+14:31:54 [32mGET[39m /script/templateLoader.js
+14:31:54 [32mGET[39m /script/allPages.mjs
+14:31:54 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_db?ssl=true
+####################
+15:06:17 [32mGET[39m /?
+15:06:17 [32mGET[39m /script/templateLoader.js
+15:06:17 [32mGET[39m /script/allPages.mjs
+15:06:17 [32mGET[39m /script/userFunctions.mjs
+15:06:19 [33mPOST[39m /user/login
+15:06:23 [32mGET[39m /?
+15:06:23 [32mGET[39m /script/templateLoader.js
+15:06:23 [32mGET[39m /script/allPages.mjs
+15:06:23 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+15:09:10 [32mGET[39m /?
+15:09:10 [32mGET[39m /script/templateLoader.js
+15:09:10 [32mGET[39m /script/allPages.mjs
+15:09:10 [32mGET[39m /script/userFunctions.mjs
+15:09:12 [33mPOST[39m /user/login
+15:09:15 [32mGET[39m /?
+15:09:15 [32mGET[39m /script/templateLoader.js
+15:09:15 [32mGET[39m /script/allPages.mjs
+15:09:15 [32mGET[39m /script/userFunctions.mjs
+15:20:35 [32mGET[39m /?
+15:20:35 [32mGET[39m /script/templateLoader.js
+15:20:35 [32mGET[39m /script/allPages.mjs
+15:20:35 [32mGET[39m /script/userFunctions.mjs
+15:21:37 [32mGET[39m /?
+15:21:37 [32mGET[39m /script/allPages.mjs
+15:21:37 [32mGET[39m /script/templateLoader.js
+15:21:37 [32mGET[39m /script/userFunctions.mjs
+15:22:59 [32mGET[39m /?
+15:22:59 [32mGET[39m /script/templateLoader.js
+15:22:59 [32mGET[39m /script/allPages.mjs
+15:22:59 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+15:30:01 [32mGET[39m /?
+15:30:01 [32mGET[39m /script/templateLoader.js
+15:30:01 [32mGET[39m /script/allPages.mjs
+15:30:01 [32mGET[39m /script/userFunctions.mjs
+15:31:59 [32mGET[39m /?
+15:31:59 [32mGET[39m /script/templateLoader.js
+15:31:59 [32mGET[39m /script/allPages.mjs
+15:31:59 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+15:32:13 GET /?
+15:32:13 GET /script/templateLoader.js
+15:32:13 GET /script/allPages.mjs
+15:32:13 GET /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+15:50:21 [32mGET[39m /?
+15:50:21 [32mGET[39m /script/templateLoader.js
+15:50:21 [32mGET[39m /script/allPages.mjs
+15:50:21 [32mGET[39m /script/userFunctions.mjs
+15:50:21 [32mGET[39m /favicon.ico
+15:50:25 [33mPOST[39m /user/login
+15:51:35 [32mGET[39m /?
+15:51:35 [32mGET[39m /script/templateLoader.js
+15:51:35 [32mGET[39m /script/allPages.mjs
+15:51:35 [32mGET[39m /script/userFunctions.mjs
+15:51:35 [32mGET[39m /favicon.ico
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+15:51:59 [32mGET[39m /?
+15:51:59 [32mGET[39m /script/templateLoader.js
+15:51:59 [32mGET[39m /script/allPages.mjs
+15:51:59 [32mGET[39m /script/userFunctions.mjs
+15:52:05 [33mPOST[39m /user/login
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+15:53:42 [32mGET[39m /?
+15:53:42 [32mGET[39m /script/templateLoader.js
+15:53:42 [32mGET[39m /script/allPages.mjs
+15:53:42 [32mGET[39m /script/userFunctions.mjs
+15:53:44 [33mPOST[39m /user/login
+15:54:04 [32mGET[39m /?
+15:54:04 [32mGET[39m /script/templateLoader.js
+15:54:04 [32mGET[39m /script/allPages.mjs
+15:54:04 [32mGET[39m /script/userFunctions.mjs
+15:56:29 [32mGET[39m /?
+15:56:29 [32mGET[39m /script/templateLoader.js
+15:56:29 [32mGET[39m /script/allPages.mjs
+15:56:29 [32mGET[39m /script/userFunctions.mjs
+15:56:30 [32mGET[39m /?
+15:56:30 [32mGET[39m /script/templateLoader.js
+15:56:30 [32mGET[39m /script/allPages.mjs
+15:56:30 [32mGET[39m /script/userFunctions.mjs
+15:56:30 [32mGET[39m /?
+15:56:30 [32mGET[39m /script/templateLoader.js
+15:56:30 [32mGET[39m /script/allPages.mjs
+15:56:30 [32mGET[39m /script/userFunctions.mjs
+15:56:43 [32mGET[39m /?
+15:56:43 [32mGET[39m /script/templateLoader.js
+15:56:43 [32mGET[39m /script/allPages.mjs
+15:56:43 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+17:02:14 [32mGET[39m /?
+17:02:14 [32mGET[39m /script/templateLoader.js
+17:02:14 [32mGET[39m /script/allPages.mjs
+17:02:14 [32mGET[39m /script/userFunctions.mjs
+17:06:12 [32mGET[39m /?
+17:06:12 [32mGET[39m /script/templateLoader.js
+17:06:12 [32mGET[39m /script/allPages.mjs
+17:06:12 [32mGET[39m /script/userFunctions.mjs
+17:06:13 [32mGET[39m /?
+17:06:13 [32mGET[39m /script/templateLoader.js
+17:06:13 [32mGET[39m /script/allPages.mjs
+17:06:13 [32mGET[39m /script/userFunctions.mjs
+17:06:13 [32mGET[39m /?
+17:06:13 [32mGET[39m /script/templateLoader.js
+17:06:13 [32mGET[39m /script/allPages.mjs
+17:06:13 [32mGET[39m /script/userFunctions.mjs
+17:06:13 [32mGET[39m /?
+17:06:13 [32mGET[39m /script/templateLoader.js
+17:06:13 [32mGET[39m /script/allPages.mjs
+17:06:13 [32mGET[39m /script/userFunctions.mjs
+17:06:14 [32mGET[39m /?
+17:06:14 [32mGET[39m /script/templateLoader.js
+17:06:14 [32mGET[39m /script/allPages.mjs
+17:06:14 [32mGET[39m /script/userFunctions.mjs
+17:06:14 [32mGET[39m /?
+17:06:14 [32mGET[39m /script/templateLoader.js
+17:06:14 [32mGET[39m /script/allPages.mjs
+17:06:14 [32mGET[39m /script/userFunctions.mjs
+17:06:14 [32mGET[39m /?
+17:06:14 [32mGET[39m /script/templateLoader.js
+17:06:14 [32mGET[39m /script/allPages.mjs
+17:06:14 [32mGET[39m /script/userFunctions.mjs
+17:14:01 [32mGET[39m /?
+17:14:01 [32mGET[39m /script/templateLoader.js
+17:14:01 [32mGET[39m /script/allPages.mjs
+17:14:01 [32mGET[39m /script/userFunctions.mjs
+Server enviorment prod
+####################
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+17:32:33 [32mGET[39m /?
+17:32:33 [32mGET[39m /script/templateLoader.js
+17:32:33 [32mGET[39m /script/allPages.mjs
+17:32:33 [32mGET[39m /script/userFunctions.mjs
+17:32:34 [32mGET[39m /?
+17:32:34 [32mGET[39m /script/templateLoader.js
+17:32:34 [32mGET[39m /script/allPages.mjs
+17:32:34 [32mGET[39m /script/userFunctions.mjs
+17:32:34 [32mGET[39m /?
+17:32:34 [32mGET[39m /script/templateLoader.js
+17:32:34 [32mGET[39m /script/allPages.mjs
+17:32:34 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+17:35:36 [32mGET[39m /?
+17:35:36 [32mGET[39m /script/templateLoader.js
+17:35:36 [32mGET[39m /script/allPages.mjs
+17:35:36 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+17:40:28 [32mGET[39m /?
+17:40:28 [32mGET[39m /script/templateLoader.js
+17:40:28 [32mGET[39m /script/allPages.mjs
+17:40:28 [32mGET[39m /script/userFunctions.mjs
+17:41:05 [32mGET[39m /?
+17:41:05 [32mGET[39m /script/templateLoader.js
+17:41:05 [32mGET[39m /script/allPages.mjs
+17:41:05 [32mGET[39m /script/userFunctions.mjs
+17:41:11 [32mGET[39m /?
+17:41:11 [32mGET[39m /script/templateLoader.js
+17:41:11 [32mGET[39m /script/allPages.mjs
+17:41:11 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+17:44:23 [32mGET[39m /?
+17:44:23 [32mGET[39m /script/templateLoader.js
+17:44:23 [32mGET[39m /script/allPages.mjs
+17:44:23 [32mGET[39m /script/userFunctions.mjs
+17:44:23 [32mGET[39m /?
+17:44:23 [32mGET[39m /script/templateLoader.js
+17:44:23 [32mGET[39m /script/allPages.mjs
+17:44:23 [32mGET[39m /script/userFunctions.mjs
+17:44:24 [32mGET[39m /?
+17:44:24 [32mGET[39m /script/templateLoader.js
+17:44:24 [32mGET[39m /script/allPages.mjs
+17:44:24 [32mGET[39m /script/userFunctions.mjs
+17:44:24 [32mGET[39m /?
+17:44:24 [32mGET[39m /script/templateLoader.js
+17:44:24 [32mGET[39m /script/allPages.mjs
+17:44:24 [32mGET[39m /script/userFunctions.mjs
+17:44:24 [32mGET[39m /?
+17:44:24 [32mGET[39m /script/templateLoader.js
+17:44:24 [32mGET[39m /script/allPages.mjs
+17:44:24 [32mGET[39m /script/userFunctions.mjs
+17:44:25 [32mGET[39m /?
+17:44:25 [32mGET[39m /script/templateLoader.js
+17:44:25 [32mGET[39m /script/allPages.mjs
+17:44:25 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+17:52:14 [32mGET[39m /?
+17:52:14 [32mGET[39m /script/templateLoader.js
+17:52:14 [32mGET[39m /script/allPages.mjs
+17:52:14 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+17:56:01 [32mGET[39m /?
+17:56:01 [32mGET[39m /script/templateLoader.js
+17:56:01 [32mGET[39m /script/allPages.mjs
+17:56:01 [32mGET[39m /script/userFunctions.mjs
+17:56:02 [32mGET[39m /?
+17:56:02 [32mGET[39m /script/templateLoader.js
+17:56:02 [32mGET[39m /script/allPages.mjs
+17:56:02 [32mGET[39m /script/userFunctions.mjs
+17:56:03 [32mGET[39m /?
+17:56:03 [32mGET[39m /script/templateLoader.js
+17:56:03 [32mGET[39m /script/allPages.mjs
+17:56:03 [32mGET[39m /script/userFunctions.mjs
+17:56:28 [32mGET[39m /?
+17:56:28 [32mGET[39m /script/templateLoader.js
+17:56:28 [32mGET[39m /script/allPages.mjs
+17:56:28 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+18:02:46 [32mGET[39m /?
+18:02:46 [32mGET[39m /script/templateLoader.js
+18:02:46 [32mGET[39m /script/allPages.mjs
+18:02:46 [32mGET[39m /script/userFunctions.mjs
+####################
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+Server enviorment prod
+20:28:43 [32mGET[39m /?
+20:28:43 [32mGET[39m /script/templateLoader.js
+20:28:43 [32mGET[39m /script/allPages.mjs
+20:28:43 [32mGET[39m /script/userFunctions.mjs
+20:28:43 [32mGET[39m /favicon.ico
+20:30:33 [32mGET[39m /?
+20:30:33 [32mGET[39m /script/templateLoader.js
+20:30:33 [32mGET[39m /script/allPages.mjs
+20:30:33 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+20:31:09 [32mGET[39m /?
+20:31:09 [32mGET[39m /script/templateLoader.js
+20:31:09 [32mGET[39m /script/allPages.mjs
+20:31:09 [32mGET[39m /script/userFunctions.mjs
+20:34:38 [32mGET[39m /?
+20:34:38 [32mGET[39m /script/templateLoader.js
+20:34:38 [32mGET[39m /script/allPages.mjs
+20:34:38 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+20:34:46 [32mGET[39m /?
+20:34:46 [32mGET[39m /script/templateLoader.js
+20:34:46 [32mGET[39m /script/allPages.mjs
+20:34:46 [32mGET[39m /script/userFunctions.mjs
+20:35:57 [32mGET[39m /?
+20:35:57 [32mGET[39m /script/templateLoader.js
+20:35:57 [32mGET[39m /script/allPages.mjs
+20:35:57 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+20:37:32 [32mGET[39m /?
+20:37:32 [32mGET[39m /script/templateLoader.js
+20:37:32 [32mGET[39m /script/allPages.mjs
+20:37:32 [32mGET[39m /script/userFunctions.mjs
+20:37:32 [32mGET[39m /script/allPages.mjs
+20:37:32 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+20:38:12 [32mGET[39m /?
+20:38:12 [32mGET[39m /script/templateLoader.js
+20:38:12 [32mGET[39m /script/allPages.mjs
+20:38:12 [32mGET[39m /script/userFunctions.mjs
+20:38:19 [33mPOST[39m /createUser
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+Server enviorment local
+####################
+20:41:05 [32mGET[39m /?
+20:41:06 [32mGET[39m /script/templateLoader.js
+20:41:06 [32mGET[39m /script/allPages.mjs
+20:41:06 [32mGET[39m /script/userFunctions.mjs
+20:41:16 [33mPOST[39m /createUser
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+20:42:19 [32mGET[39m /?
+20:42:19 [32mGET[39m /script/templateLoader.js
+20:42:19 [32mGET[39m /script/allPages.mjs
+20:42:19 [32mGET[39m /script/userFunctions.mjs
+20:42:24 [33mPOST[39m /createUser
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+20:45:26 [32mGET[39m /?
+20:45:26 [32mGET[39m /script/templateLoader.js
+20:45:26 [32mGET[39m /script/allPages.mjs
+20:45:26 [32mGET[39m /script/userFunctions.mjs
+20:45:34 [33mPOST[39m /user/create
+20:46:18 [33mPOST[39m /user/create
+20:46:37 [33mPOST[39m /user/create
+20:46:48 [32mGET[39m /?
+20:46:48 [32mGET[39m /script/templateLoader.js
+20:46:48 [32mGET[39m /script/allPages.mjs
+20:46:48 [32mGET[39m /script/userFunctions.mjs
+Server enviorment local
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+20:47:04 [33mPOST[39m /user/create
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+20:51:55 [32mGET[39m /?
+20:51:55 [32mGET[39m /script/templateLoader.js
+20:51:55 [32mGET[39m /script/allPages.mjs
+20:51:55 [32mGET[39m /script/userFunctions.mjs
+20:52:18 [32mGET[39m /?
+20:52:18 [32mGET[39m /script/templateLoader.js
+20:52:18 [32mGET[39m /script/allPages.mjs
+20:52:18 [32mGET[39m /script/userFunctions.mjs
+20:52:28 [33mPOST[39m /user/create
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+21:02:22 [32mGET[39m /?
+21:02:22 [32mGET[39m /script/templateLoader.js
+21:02:22 [32mGET[39m /script/allPages.mjs
+21:02:22 [32mGET[39m /script/userFunctions.mjs
+####################
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+Server enviorment local
+####################
+21:02:57 [32mGET[39m /?
+21:02:57 [32mGET[39m /script/templateLoader.js
+21:02:57 [32mGET[39m /script/allPages.mjs
+21:02:57 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+21:03:10 [32mGET[39m /?
+21:03:10 [32mGET[39m /script/templateLoader.js
+21:03:10 [32mGET[39m /script/allPages.mjs
+21:03:10 [32mGET[39m /script/userFunctions.mjs
+21:04:36 [32mGET[39m /?
+21:04:36 [32mGET[39m /script/templateLoader.js
+21:04:36 [32mGET[39m /script/allPages.mjs
+21:04:36 [32mGET[39m /script/userFunctions.mjs
+21:05:37 [32mGET[39m /?
+21:05:37 [32mGET[39m /script/templateLoader.js
+21:05:37 [32mGET[39m /script/allPages.mjs
+21:05:37 [32mGET[39m /script/userFunctions.mjs
+####################
+Server enviorment local
+Database connection  postgres://postgres:1234@localhost:5432/recipe_postgresql_database
+####################
+####################
+Server enviorment prod
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+21:06:16 [32mGET[39m /?
+21:06:16 [32mGET[39m /script/templateLoader.js
+21:06:16 [32mGET[39m /script/allPages.mjs
+21:06:16 [32mGET[39m /script/userFunctions.mjs
+Server enviorment prod
+####################
+Database connection  postgres://recipe_postgresql_database_user:4EQIPuFDjlNkMKE5x5jrmixxScUWm1rJ@dpg-cn5344fqd2ns73eoj1cg-a.frankfurt-postgres.render.com/recipe_postgresql_database?ssl=true
+####################
+22:57:05 [32mGET[39m /?email=test&password=test
+22:57:05 [32mGET[39m /script/templateLoader.js
+22:57:05 [32mGET[39m /script/allPages.mjs
+22:57:05 [32mGET[39m /script/userFunctions.mjs
+22:57:07 [32mGET[39m /?email=test&password=test
+22:57:07 [32mGET[39m /script/templateLoader.js
+22:57:07 [32mGET[39m /script/allPages.mjs
+22:57:07 [32mGET[39m /script/userFunctions.mjs
+22:57:16 [32mGET[39m /?
+22:57:16 [32mGET[39m /script/templateLoader.js
+22:57:16 [32mGET[39m /script/allPages.mjs
+22:57:16 [32mGET[39m /script/userFunctions.mjs
+22:57:27 [32mGET[39m /?
+22:57:27 [32mGET[39m /script/templateLoader.js
+22:57:27 [32mGET[39m /script/allPages.mjs
+22:57:27 [32mGET[39m /script/userFunctions.mjs
+22:57:31 [32mGET[39m /
+22:57:31 [32mGET[39m /script/templateLoader.js
+22:57:31 [32mGET[39m /script/allPages.mjs
+22:57:31 [32mGET[39m /script/userFunctions.mjs
+22:57:32 [32mGET[39m /?
+22:57:32 [32mGET[39m /script/templateLoader.js
+22:57:32 [32mGET[39m /script/allPages.mjs
+22:57:32 [32mGET[39m /script/userFunctions.mjs
+23:01:07 [32mGET[39m /?
+23:01:07 [32mGET[39m /script/templateLoader.js
+23:01:07 [32mGET[39m /script/allPages.mjs
+23:01:07 [32mGET[39m /script/userFunctions.mjs
+23:02:42 [32mGET[39m /?
+23:02:42 [32mGET[39m /script/templateLoader.js
+23:02:42 [32mGET[39m /script/allPages.mjs
+23:02:42 [32mGET[39m /script/userFunctions.mjs
+23:02:56 [32mGET[39m /?
+23:02:56 [32mGET[39m /script/templateLoader.js
+23:02:56 [32mGET[39m /script/allPages.mjs
+23:02:56 [32mGET[39m /script/userFunctions.mjs

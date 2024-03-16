@@ -6,6 +6,7 @@ import SuperLogger from "./modules/Middlewares/SuperLogger.mjs";
 import { User } from "./modules/user.mjs";
 import recepie_API from "./routes/recepieRoutes.mjs";
 import printDeveloperStartupInportantInformationMSG from "./modules/Middlewares/developerHelpers.mjs";
+import bodyParser from "body-parser";
 
 
 printDeveloperStartupInportantInformationMSG();
@@ -37,5 +38,8 @@ server.use("/recepie", recepie_API);
 server.listen(server.get("port"), function () {
   console.log("server running", server.get("port"));
 });
+
+server.use(bodyParser.json());
+server.use(bodyParser.urlencoded({ extended: true }));
 
 
