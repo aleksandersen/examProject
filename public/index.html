@@ -7,8 +7,8 @@
   <title>My recipe app</title>
 
   <script src="./script/templateLoader.js"></script>
-  <script src="./script/allPages.mjs"></script>
-  <script src="./script/userFunctions.mjs"></script>
+  <script src="./script/allPages.mjs" type="module"></script>
+  <script src="./script/userFunctions.mjs" type="module"></script>
 
 </head>
 
@@ -34,7 +34,7 @@
         <input type="text" id="loginEMail" placeholder="Email"> <br>
         <input type="password" id="loginPassword" placeholder="Password"> <br>
         <button id="logInBtn" type="submit">Logg inn</button>
-        <button id="newUserBtn">Ny bruker</button>
+        <button id="newUserBtn"type="button">Ny bruker</button>
     </form>
 </template>
 
@@ -46,7 +46,6 @@
       <button type="submit" id="createNewUserBtn">Lag ny bruker</button>
   </form>
 </template>
-
 
 
 

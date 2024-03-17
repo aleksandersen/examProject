@@ -1,5 +1,5 @@
 import express, { response } from "express";
-import db from "../modules/databasePool.mjs";
+import DBManager from "../modules/storageManager.mjs"
 import User from "../modules/user.mjs";
 import { HTTPCodes } from "../modules/httpConstants.mjs";
 import SuperLogger from "../modules/Middlewares/SuperLogger.mjs";
@@ -10,10 +10,17 @@ USER_API.use(express.json()); // This makes it so that express parses all incomi
 const users = [];
 
 USER_API.get("/:id", async (req, res, next) => {
-  const user = await db.query("SELECT * FROM users WHERE userid = $1", [
+  const user = await DBManager.query("SELECT * FROM users WHERE userid = $1", [
     req.body.id,
   ]);
 });
+USER_API.get("/test", async (req, res, next) => {
+  const user = await DBManager.query('SELECT * FROM Users', [
+    req.body.id,
+  ]);
+});
+
+
 
 // USER_API.post("/loginUser", async (req, res) => {
 //   const { email, password } = req.body;
@@ -37,9 +44,10 @@ USER_API.post('/login', async  (req, res, next) => {
     //TODO: Login user
 
     const {userEMail, userPassword} = req.body;
-    console.log(`userEMail = ${userEMail}`, `userPassword = ${userPassword}`);
 
-    const userInfo = await checkIfLoggedIn(userEMail, userPassword);
+    console.log(`userEMail = ${userEMail}`, `userPassword = ${userPassword}` ,"Er dette testbrukeren?");
+
+    const userInfo = await DBManager.checkIfLoggedIn(userEMail, userPassword);
 
     if(userInfo){
       res.status(200).send({message: "User Ok", code: 200, data: userInfo});
@@ -51,21 +59,15 @@ USER_API.post('/login', async  (req, res, next) => {
 
 
 
-
-
-
-
-
-
-USER_API.post("/create/user", async (req, res) => {
+USER_API.post("/create", async (req, res) => {
     const { name, email, password } = req.body;
     if (!name || !email || !password) {
       return res.status(400).json({ message: "Name, EMail, and password are required" });
     }
   
     try {
-      const result = await db.query(
-        "INSERT INTO tblUser(Name, EMail, Password) VALUES($1, $2, $3) RETURNING UserID",
+      const result = await DBManager.query(
+        "INSERT INTO Users(Name, EMail, Password) VALUES($1, $2, $3) RETURNING UserID",
         [name, email, password]
       );
       res.status(201).json({ UserID: result.rows[0].userid, message: "User created successfully" });

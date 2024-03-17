@@ -1,6 +1,9 @@
+import { loginUser } from "./userFunctions.mjs";
+
 let divHeader = null;
 let divContent = null;
 let divFooter = null;
+
 
 document.addEventListener("DOMContentLoaded", loadPage);
 
@@ -34,7 +37,9 @@ async function loginPage() {
 
   const logInBtn = document.getElementById("logInBtn");
   logInBtn.addEventListener("click", function(evt){
+    evt.preventDefault();
     loginUser()
+    console.log("kjører denne? ", loginUser);
   });
 
   

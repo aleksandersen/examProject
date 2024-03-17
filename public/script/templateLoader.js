@@ -1,8 +1,8 @@
 
 function loadTemplate(aTemplateID, aDestElement, aEmptyElement = false){
-  
+ 
   const tl = document.getElementById(aTemplateID);
-
+  
   if(tl.content){
     const clone = tl.content.cloneNode(true);
     if(aEmptyElement){
