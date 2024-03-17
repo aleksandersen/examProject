@@ -29,5 +29,6 @@ server.listen(server.get("port"), function () {
 });
 
 
-
+server.use(bodyParser.json());
+server.use(bodyParser.urlencoded({ extended: true }));
 
