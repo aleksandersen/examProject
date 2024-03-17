@@ -1,5 +1,5 @@
 export async function loginUser() {
-  console.log("HALLO???");
+  console.log("Does it run?");
   const email = document.getElementById("loginEMail").value;
   const password = document.getElementById("loginPassword").value;
   console.log(email);
@@ -21,10 +21,9 @@ export async function loginUser() {
 }catch(error){
       console.error(error.message);
 }
-  console.log("response", response.json);
 }
 
-async function createUser() {
+export async function createUser() {
   divContent.innerHTML = document.getElementById("tlCreateNewUser").innerHTML;
 
   const createNewUserBtn = document.getElementById("createNewUserBtn");
@@ -35,17 +34,19 @@ async function createUser() {
 
     const user = { name, email, password };
     const response = await sendDataToServer("/create", user);
-
-
-
-
+    if(response.ok){
+      const responseData = await response.json();
+      console.log(responseData.message);
+    } else {
+      console.error("Create user fail")
+    }
 
     //  loginUser();
   });
 }
 
 async function sendDataToServer(url, data) {
-  console.log("Blir data sendt?", sendDataToServer, url, data);
+  console.log("Is data sent?", sendDataToServer, url, data);
   const header = {
     method: "POST",
     headers: {

@@ -1,4 +1,5 @@
 import { loginUser } from "./userFunctions.mjs";
+import { createUser } from "./userFunctions.mjs";
 
 let divHeader = null;
 let divContent = null;
@@ -39,7 +40,7 @@ async function loginPage() {
   logInBtn.addEventListener("click", function(evt){
     evt.preventDefault();
     loginUser()
-    console.log("kjører denne? ", loginUser);
+    console.log(loginUser);
   });
 
   

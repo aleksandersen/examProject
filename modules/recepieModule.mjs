@@ -2,7 +2,6 @@ import express, { response } from "express";
 import User from "../modules/user.mjs";
 import { HTTPCodes } from "../modules/httpConstants.mjs";
 
-//This is the middleware for recepies
 
 class Recepie {
   static showAll(req, res) {
@@ -20,8 +19,7 @@ class Recepie {
   }
 
   constructor() {
-    //Todo: Add different elements in recepies.
-  }
+ }
 }
 
 export default Recepie;
